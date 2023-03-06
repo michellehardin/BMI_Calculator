@@ -7,6 +7,7 @@ class BMI_Calculator:
         self.height = (((height_ft * 12) + height_inches) * 0.025) ** 2
         self.weight = 0.45 * weight
         self.BMI = self.weight / self.height
+        print("BMI: ", self.BMI)
 
     def determine(self):
         if self.BMI < 18.5:
