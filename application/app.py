@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-from functions import determine_category, determine_bmi
+from bmi_category import determine_category, determine_bmi
 
 app = Flask(__name__)
 
