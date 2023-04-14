@@ -1,4 +1,4 @@
-from bmi_category import determine_category
+from application.bmi_category import determine_category
 
 def test_error():
     bmi = 0
